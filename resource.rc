@@ -1,0 +1,18 @@
+#include "main.h"
+
+MAINMENU MENU 
+{
+ POPUP "&File"
+ {
+  MENUITEM "&Open...", CM_FILE_OPEN
+  MENUITEM "Save &as...", CM_FILE_SAVEAS
+  MENUITEM SEPARATOR
+  MENUITEM "E&xit my beautifull app", CM_FILE_EXIT
+ }
+
+ POPUP "&Help"
+ {
+  MENUITEM "&About", CM_ABOUT
+ }
+}
+
